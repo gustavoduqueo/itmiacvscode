@@ -74,7 +74,7 @@ resource "aws_security_group" "SG_JoomlaITMIaC_VSCode" {
 ############# RDS Subnet Group #############
 
 resource "aws_db_subnet_group" "SNG_Joomla_VSCode" {
-  name = "${rds_db_subnet_group_name}"
+  name = "${var.rds_db_subnet_group_name}"
   subnet_ids = [aws_subnet.SUBNET_ITMIaC_1_VSCode.id,aws_subnet.SUBNET_ITMIaC_2_VSCode.id]
 }
 
