@@ -6,7 +6,7 @@ terraform {
     }
   }
   backend "local" {
-    path = "/Users/gduque/Documents/ProyectosJava/itmiac/itmiacvscode/itmiacstate.tfstate"
+    path = "D:/GDUQUEO/Personal/ITM/Docencia/2023-2/IaC/Lab1/itmiacvscode/itmiacstate.tfstate"
   }
 }
 

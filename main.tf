@@ -85,7 +85,7 @@ resource "aws_db_subnet_group" "SNG_Joomla_VSCode" {
 resource "aws_db_instance" "RDS_Joomla_VSCode" {
   identifier           = "${var.rds_identifier}"
   allocated_storage    = "${var.rds_allocated_storage}"
-  db_name              = "${var.rds_db_name}"
+  name              = "${var.rds_db_name}"
   engine               = "${var.rds_engine}"
   engine_version       = "${var.rds_engine_version}"
   instance_class       = "${var.rds_instance_class}"
