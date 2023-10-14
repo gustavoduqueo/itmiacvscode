@@ -18,8 +18,8 @@ resource "aws_subnet" "SUBNET_ITMIaC_1_VSCode" {
   availability_zone = "us-east-1a"
   map_public_ip_on_launch = true
   tags = {
-    "NAME" = "SUBNET_ITMIaC_1_VSCode"
-    "ENV" = "LAB"
+    "Name" = "SUBNET_ITMIaC_1_VSCode"
+    "Env" = "LAB"
   }
   depends_on = [
     aws_vpc.VPCITMIaCVSCode
@@ -32,8 +32,8 @@ resource "aws_subnet" "SUBNET_ITMIaC_2_VSCode" {
   availability_zone = "us-east-1c"
   map_public_ip_on_launch = true
   tags = {
-    "NAME" = "SUBNET_ITMIaC_1_VSCode"
-    "ENV" = "LAB"
+    "Name" = "SUBNET_ITMIaC_1_VSCode"
+    "Env" = "LAB"
   }
   depends_on = [
     aws_vpc.VPCITMIaCVSCode
